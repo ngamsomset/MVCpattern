@@ -11,6 +11,11 @@ namespace MVCpattern.Controllers
             return View(dog);
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         public String Hello()
         {
             return "Who's there";
